@@ -1,6 +1,6 @@
 # CSS3之过渡(*transition*)
 
-> CSS3过渡使用的css属性是 *** transition ***。
+> CSS3过渡使用的css属性是 transition。
 > 通过CSS3过渡，我们可以实现元素从一种样式变换到另外一种样式的效果。
 > ***transition*** 一般高级浏览器都支持。
 
