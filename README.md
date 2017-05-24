@@ -8,7 +8,7 @@
 ---
 
 ## CSS3 新特性
-- [媒体查询（Media Queries）](media)
+- [媒体查询（Media Queries）](https://github.com/qieyif/Learn-CSS/blob/master/media-query.md)
 - 自定义字体
 - 渐变
 - 动画
@@ -18,6 +18,6 @@
 
 ---
 
-[media]:https://github.com/qieyif/Learn-CSS/blob/master/media-query.md
+
 
 
