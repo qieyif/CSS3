@@ -1,6 +1,6 @@
 # CSS3之过渡(*transition*)
 
-> CSS3过渡使用的css属性是 transition。
+> CSS3过渡使用的css属性是***transition***。
 > 通过CSS3过渡，我们可以实现元素从一种样式变换到另外一种样式的效果。
 > ***transition*** 一般高级浏览器都支持。
 
@@ -16,9 +16,9 @@
 |    transition-delay    | 检索或设置对象延迟过渡的时间  |
 
 ---
-- ***  transition *** 过渡的复合属性。` transiton : 过渡属性 过渡所需要时间 过渡动画函数 过渡延迟时间`。
-- *** transition-property *** 设置的要参与过渡的属性 例如：width height border color background-color等。
-- *** transition-duration*** 设置过渡的时间，过渡所需要花费的时间。单位是s。
+- ***transition*** 过渡的复合属性。` transiton : 过渡属性 过渡所需要时间 过渡动画函数 过渡延迟时间`。
+- ***transition-property*** 设置的要参与过渡的属性 例如：width height border color background-color等。
+- ***transition-duration*** 设置过渡的时间，过渡所需要花费的时间。单位是s。
 
 `示例如下 ： 红色的方块会在2s的时间内过渡到蓝色，视觉上是一种动画的效果。`
 
