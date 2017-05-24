@@ -37,29 +37,29 @@
 
 `实例如下：`
 ```
-			/*demo1*/
-			.demo1{
-				background: #556B2F;
-			}
-			.demo1:hover{
-				animation: demo1 5s ease 2 alternate;
-				animation-delay: 3s;
-			}
-			/*定义动画demo1*/
-			@keyframes demo1{
-				0% {
-					background: #666666;
-				}
-				25%{
-					background: #FF0000;
-				}
-				50% {
-					background: #B8860B;
-				}
-				100% {
-					background: #0000FF;
-				}
-			}
+	/*demo1*/
+	.demo1{
+		background: #556B2F;
+	}
+	.demo1:hover{
+		animation: demo1 5s ease 2 alternate;
+		animation-delay: 3s;
+	}
+	/*定义动画demo1*/
+	@keyframes demo1{
+		0% {
+			background: #666666;
+		}
+		25%{
+			background: #FF0000;
+		}
+		50% {
+			background: #B8860B;
+		}
+		100% {
+			background: #0000FF;
+		}
+	}
 ```
 
 ---
