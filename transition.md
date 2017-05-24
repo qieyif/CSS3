@@ -23,16 +23,16 @@
 `示例如下 ： 红色的方块会在2s的时间内过渡到蓝色，视觉上是一种动画的效果。`
 
 ``` css
-		div{
-				width: 200px;
-				height: 200px;
-				background-color: #f00;
-				transition-property: background-color;
-				transition-duration: 2s;
-			}
- 	  div:hover{
-				background-color: #00f;
-			}
+	div{
+		width: 200px;
+		height: 200px;
+		background-color: #f00;
+		transition-property: background-color;
+		transition-duration: 2s;
+	   }
+  div:hover{
+		background-color: #00f;
+	   }
 
 ```
 
@@ -44,7 +44,7 @@
 > 单纯的代码并不能触发任何的过渡效果，需要用户的行为，例如点击，划过等事件进行触发，可以触发的方式如下“
 
 ```css
-	:hover
+    :hover
     :focus
     :checked
     click
