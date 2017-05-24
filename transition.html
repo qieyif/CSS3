@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			div{
+				margin: 30px;
+				float: left;
+				width: 200px;
+				height: 200px;
+				text-align: center;
+				line-height: 200px;
+			}
+			/*demo1*/
+			.demo1{
+				background-color: #f00;
+				transition-property: background-color;
+				transition-property: transform;
+				transition-duration: 2s;
+				transition-timing-function: ease-in-out;
+			}
+			.demo1:hover{
+				background-color: #00f;
+				transform: rotate(180deg);
+			}
+			
+			/*demo2*/
+			.demo2{
+				border-radius: 50%;
+				background: orange;
+				transition-property: transform;
+				transition-duration: 2s;
+				transition-timing-function: ease-in;
+			}
+			.demo2:hover{
+				transform: scale(1.2);
+			}
+			
+			/*demo3*/
+			.demo3{
+				transition-timing-function: ease-in;
+				background: darkolivegreen;
+				transition-property: height;
+				transition-duration: 2s;
+			}
+			.demo3:hover{
+				height: 150px;
+			}
+			
+			/*demo4*/
+			.demo4{
+				background: darkgoldenrod;
+				transition-property: border;
+				transition-property: background-color;
+				transition-duration: 2s;
+				border-radius: 50%;
+				border: 8px dashed #666;
+			}
+			.demo4:hover{
+				border: 8px dashed #f00;
+				background: #666666;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="demo1">Demo1</div>
+		<div class="demo2">Demo2</div>
+		<div class="demo3">Demo3</div>
+		<div class="demo4">Demo4</div>
+	</body>
+</html>

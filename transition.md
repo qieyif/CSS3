@@ -17,7 +17,7 @@
 
 ---
 - ***transition*** 过渡的复合属性。` transiton : 过渡属性 过渡所需要时间 过渡动画函数 过渡延迟时间`。
-- ***transition-property*** 设置的要参与过渡的属性 例如：width height border color background-color等。
+- ***transition-property*** 设置的要参与过渡的属性 例如：width height border color background-color transform 等。
 - ***transition-duration*** 设置过渡的时间，过渡所需要花费的时间。单位是s。
 
 `示例如下 ： 红色的方块会在2s的时间内过渡到蓝色，视觉上是一种动画的效果。`
@@ -39,6 +39,7 @@
 - ***transition-timing-function*** 指定过渡的函数 `liner:匀速；ease-in：减速；ease-out：加速；ease-in-out:先加速再减速；cubic-bezier:三次贝塞尔曲线 可以定制` [跳转到cubic-bezier定制页面](http://cubic-bezier.com/#.06,.88,.84,.24)
 - ***transition-delay*** 过渡延迟时间
 
+[点击查看过渡的小例子](https://github.com/qieyif/Learn-CSS/blob/master/transition.html)
 ---
 ##### 触发过渡的条件
 > 单纯的代码并不能触发任何的过渡效果，需要用户的行为，例如点击，划过等事件进行触发，可以触发的方式如下“
@@ -64,5 +65,4 @@
 ---
 
 **css3的Animation动画就是为了解决这些问题出现的**[跳转到CSS3-Animation动画教程]()
-
 
