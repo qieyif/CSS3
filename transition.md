@@ -36,8 +36,8 @@
 
 ```
 
-- *** transition-timing-function*** 指定过渡的函数 `liner:匀速；ease-in：减速；ease-out：加速；ease-in-out:先加速再减速；cubic-bezier:三次贝塞尔曲线 可以定制` [跳转到cubic-bezier定制页面](http://cubic-bezier.com/#.06,.88,.84,.24)
-- *** transition-delay *** 过渡延迟时间
+- ***transition-timing-function*** 指定过渡的函数 `liner:匀速；ease-in：减速；ease-out：加速；ease-in-out:先加速再减速；cubic-bezier:三次贝塞尔曲线 可以定制` [跳转到cubic-bezier定制页面](http://cubic-bezier.com/#.06,.88,.84,.24)
+- ***transition-delay*** 过渡延迟时间
 
 ---
 ##### 触发过渡的条件
@@ -63,6 +63,6 @@
 
 ---
 
-** css3的Animation动画就是为了解决这些问题出现的！**[跳转到CSS3-Animation动画教程]()
+**css3的Animation动画就是为了解决这些问题出现的**[跳转到CSS3-Animation动画教程]()
 
 
