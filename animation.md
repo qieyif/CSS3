@@ -42,8 +42,7 @@
 		background: #556B2F;
 	}
 	.demo1:hover{
-		animation: demo1 5s ease 2 alternate;
-		animation-delay: 3s;
+		animation: demo1 5s ease 3s 2 alternate;
 	}
 	/*定义动画demo1*/
 	@keyframes demo1{
@@ -63,7 +62,15 @@
 ```
 
 ---
+#### animation复合属性：
 
+	animation: animation-name, animation-duration, animation-timing-function, animation-delay, animation-iteration-count,animation-direction;
+	
+	example: 
+	
+		animation: ani1, 5s, ease, 2s, 2, alternate;
+	
+	
 ##### animation和transition的区别：
 - animation属性类似于transition，他们都是随着时间改变元素的属性值。
 - transition需要触发一个事件才会随着时间改变其css属性，而animation在不需要触发任何事件的情况下，也可以实现。
